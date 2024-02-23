@@ -1,38 +1,42 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+As a software engineer eager to enhance my skills, I developed the Task List App, a comprehensive application that streamlines task management. This project not only serves as a personal learning endeavor but also showcases my proficiency in utilizing Firebase for authentication and Firestore as the cloud database.
 
-{Provide a description of the software that you wrote and how it integrates with a Cloud Database. Describe how to use your program.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
+The Task List App enables users to efficiently organize their tasks while harnessing the power of Firebase for user authentication. By integrating these technologies, I aim to provide a seamless and secure task management experience.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Cloud Database
 
-{Describe the cloud database you are using.}
+The Task List App leverages Firebase's Firestore as its cloud database. Firestore offers real-time synchronization and scalability, providing a robust foundation for storing and retrieving task-related data.
 
-{Describe the structure of the database that you created.}
+The database is structured to efficiently manage tasks for each user. Collections store user information, while documents within each collection represent individual tasks. This organized structure enhances data retrieval and ensures a seamless user experience.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+* Firebase: for authentication and Firestore as the cloud database.
+* VS Code
+* Version Control: Git
+* Tailwind and bootstrap for styles
+  
+Programming Language: 
+* Javascript
 
-{Describe the programming language that you used and any libraries.}
+Libraries
+* Firebase SDK: for integrating Firebase services.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Get Started with Firebase Authentication on Websites](https://firebase.google.com/docs/auth/web/start)
+- [Get started with Cloud Storage on Web](https://firebase.google.com/docs/storage/web/start)
+- [How to Add Firebase to Your Javascript Project](https://medium.com/nerd-for-tech/how-to-add-firebase-to-your-javascript-project-1cb998b51856)
+- [Installation & Setup in JavaScript](https://firebase.google.com/docs/database/web/start)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+To enhance the Task List App further, the following improvements and additions are planned for future updates:
 
-- Item 1
-- Item 2
-- Item 3
+- Implement advanced task sorting and filtering options.
+- Enhance the user interface for a more intuitive experience.
+- Integrate additional authentication methods for user flexibility.
